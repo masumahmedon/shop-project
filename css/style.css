@@ -141,18 +141,51 @@ header{
     margin-top: 32px;
   }
   /* Feature-section-end */
-  /* instragram-section-start */
-  /* .instagram-images{
-    border: 1px solid red;
+  /* instagram-section-start*/
+  .instagram-images{
+    margin-top: 48px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    gap: 10px;
+    gap: 20px;
   }
-  .first-insta-image{
-    width: 100%;
-    border: 1px solid red;
+  .first-img{
+    width: 390px;
   }
-  .first-insta-image img{
+  .first-img img{
     width: 100%;
-  } */
-  /* instragram-section-end */
+    border-radius: 10px;
+  }
+  /* instagram-section-end */
+  /* deals-section-start */
+  .deals-content{
+    margin-top: 128px;
+    text-align: center;
+    padding: 122px 187px;
+    border-radius: 10px;
+  }
+  .cont-deals{
+    background-image: url(../flower/deals-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+  }
+  .p-deals{
+    margin: 18px 48px;
+  }
+  input{
+    width: 400px;
+    height:35px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  }
+  .d-btn{
+    width: 100px;
+    height:35px;
+    background-color: #E55473;
+    border: none;
+    border-radius: 10px;
+  }
+  /* deals-section-end */
+  

@@ -19,6 +19,7 @@
   font-weight: 900;
   }
 .p-description{
+  font-size: 18px;
   /* text-align: center; */
   }
 .bg-color{
@@ -100,19 +101,16 @@ header{
   }
   /* banner-section-end */
   /* Feature-section-Start */
-  .feature{
+  .feature,.instagram{
     margin-top: 100px;
   }
-  .feature-content{
+  .feature-content,.instagram-content{
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 50%;
     margin: 0 auto;
     text-align: center;
-  }
-  .f-des{
-    font-size: 18px;
   }
   .feature-img{
     margin-top: 48px;
@@ -143,3 +141,18 @@ header{
     margin-top: 32px;
   }
   /* Feature-section-end */
+  /* instragram-section-start */
+  /* .instagram-images{
+    border: 1px solid red;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+  }
+  .first-insta-image{
+    width: 100%;
+    border: 1px solid red;
+  }
+  .first-insta-image img{
+    width: 100%;
+  } */
+  /* instragram-section-end */
